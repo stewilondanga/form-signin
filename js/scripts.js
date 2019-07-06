@@ -25,13 +25,13 @@ function validate(field, regex) {
   }
 }
 
-/*inputs.forEach((input) => {
-   input.addEventListener('keyup', (e) => {
-      validate(e.target, patterns[e.target.attributes.name.value])
-   });
+inputs.forEach((input) => {
+  input.addEventListener('keyup', (e) => {
+    validate(e.target, patterns[e.target.attributes.name.value])
+  });
 });
 
-const next = document.getElementById('next');
+/*const next = document.getElementById('next');
 const favorite = document.querySelector('.favorite');
 
 next.addEventListener('click', nextSection);
