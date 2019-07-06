@@ -36,12 +36,12 @@ const favorite = document.querySelector('.favorite');
 
 next.addEventListener('click', nextSection);
 
-/*function nextSection(){
-   favorite.classList.add('see');
-   next.classList.add('hide');
+function nextSection() {
+  favorite.classList.add('see');
+  next.classList.add('hide');
 }
 
-var navigate = (function() {
+/*var navigate = (function() {
 	$('.dd').toggle();
 	$('.dd_btn').click(function() {
 		var dataName = $(this).attr('data-name');
